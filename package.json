@@ -2,9 +2,10 @@
   "name": "clang-social-production",
   "version": "1.0.0",
   "description": "Clang Social's production source-code",
-  "main": "",
+  "main": "./api/server.js",
   "scripts": {
-    "dev": "cd api && npm run server"
+    "start": "cd api && node server.js",
+    "dev": "cd api && nodemon server.js"
   },
   "repository": {
     "type": "git",
