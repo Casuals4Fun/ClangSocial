@@ -50,3 +50,7 @@ const PORT = process.env.PORT || 8000;
 connectDatabase().then(() => {
   app.listen(PORT, () => console.log(`🚀 @ http://localhost:${PORT}`));
 });
+
+app.get('/', async (req, res) => {
+  res.send({ message: 'Awesome it works 🐻' });
+});
