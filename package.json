@@ -1,0 +1,33 @@
+{
+  "name": "clang-social-production",
+  "version": "1.0.0",
+  "description": "Clang Social's production source-code",
+  "main": "",
+  "scripts": {
+    "dev": "cd api && npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casuals4Fun/clang-social-production.git"
+  },
+  "keywords": [],
+  "author": "CERTIFIED2003",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casuals4Fun/clang-social-production/issues"
+  },
+  "homepage": "https://github.com/Casuals4Fun/clang-social-production#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "googleapis": "^118.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22"
+  }
+}
