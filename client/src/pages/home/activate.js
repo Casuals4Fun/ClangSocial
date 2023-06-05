@@ -29,7 +29,7 @@ export default function Activate() {
         }
       });
       setSuccess(data.message);
-      Cookies.set("user", JSON.stringify({ ...user, verified: true }), {expires: 365});
+      Cookies.set("user", JSON.stringify({ ...user, verified: true }));
       dispatch({
         type: "VERIFY",
         payload: true,

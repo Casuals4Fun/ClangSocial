@@ -26,7 +26,7 @@ export default function DisplayAccess({ setVisible }) {
             <label
                 htmlFor="darkOff"
                 onClick={() => {
-                    Cookies.set("darkTheme", false, {expires: 365});
+                    Cookies.set("darkTheme", false);
                     dispatch({ type: "LIGHT" });
                 }}
             >
@@ -39,7 +39,7 @@ export default function DisplayAccess({ setVisible }) {
             <label
                 htmlFor="darkOn"
                 onClick={() => {
-                    Cookies.set("darkTheme", true, {expires: 365});
+                    Cookies.set("darkTheme", true);
                     dispatch({ type: "DARK" });
                 }}
             >
