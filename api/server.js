@@ -52,5 +52,10 @@ connectDatabase().then(() => {
 });
 
 app.get('/', async (req, res) => {
-  res.send({ message: 'Awesome it works 🐻' });
+  try {
+    res.send({ message: 'Awesome it works 🐻' });
+  }
+  catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 });

@@ -27,7 +27,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}`)
+    axios.get(`${process.env.REACT_APP_LOGIN_URL}`)
       .then(res => {
         setIsLoading(false);
       })
