@@ -19,6 +19,7 @@ import Terms from "./pages/data/Terms";
 import Cookies from "./pages/data/Cookies";
 import RoomEnter from "./pages/room/RoomEnter";
 import Error from "./pages/error";
+import axios from "axios";
 
 function App() {
   const { user, darkTheme } = useSelector((state) => ({ ...state }));
