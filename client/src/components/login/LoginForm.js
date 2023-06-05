@@ -6,7 +6,6 @@ import LoginInput from "../inputs/logininput";
 import RiseLoader from "react-spinners/RiseLoader";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 
 const loginInfos = {
@@ -45,7 +44,6 @@ export default function LoginForm({ setVisible }) {
             setLoading(false);
             navigate("/");
             dispatch({ type: "LOGIN", payload: data });
-            Cookies.set("user", JSON.stringify(data), {expires: 365});
         }
         catch (error) {
             setLoading(false);
