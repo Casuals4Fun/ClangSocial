@@ -634,7 +634,7 @@ exports.getFriendsPageInfos = async (req, res) => {
       .populate("friends", "first_name last_name picture username")
       .populate("requests", "first_name last_name picture username");
     const sentRequests = await User.find({
-      requests: mongoose.Types.ObjectId(req.user.id),
+      requests: new mongoose.Types.ObjectId(req.user.id),
     }).select("first_name last_name picture username");
     res.json({
       friends: user.friends,
