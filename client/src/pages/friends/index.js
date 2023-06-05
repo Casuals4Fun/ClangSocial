@@ -129,7 +129,7 @@ export default function Friends() {
                                         <div className="friends_left_header">
                                             <h3>Friend Requests</h3>
                                             {type === undefined && (
-                                                <Link to="/friends/requests" className="see_link hover3">
+                                                <Link to="/friends/requests" className="see_link link_hover">
                                                     See all
                                                 </Link>
                                             )}

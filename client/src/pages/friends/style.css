@@ -71,6 +71,11 @@
     border-radius: 10px;
 }
 
+.link_hover:hover {
+    background: var(--pink-color-btn);
+    color: white;
+}
+
 .req_card .flex {
     width: 100%;
     padding: 0 15px;
