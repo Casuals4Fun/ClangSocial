@@ -9,7 +9,6 @@ import Reset from "./pages/reset";
 import CreatePostPopup from "./components/createPostPopup";
 import { useSelector } from "react-redux";
 import { useEffect, useReducer, useState } from "react";
-import axios from "axios";
 import { postsReducer } from "./functions/reducers";
 import Friends from "./pages/friends";
 import Room from "./pages/room";
@@ -23,10 +22,7 @@ import Error from "./pages/error";
 
 function App() {
   const { user, darkTheme } = useSelector((state) => ({ ...state }));
-  if (!user) {
-    axios.get(`${process.env.REACT_APP_BACKEND_URL}/`);
-    axios.get(`${process.env.REACT_APP_LOGIN_URL}/`);
-  }
+
   useEffect(() => {
     document.body.style.backgroundColor = `${darkTheme ? "#18191a" : "#f0f2f5"}`
   }, [darkTheme]);
@@ -40,7 +36,6 @@ function App() {
   });
 
   const getAllPosts = async () => {
-    // if (user) {
     try {
       dispatch({
         type: "POSTS_REQUEST"
@@ -61,10 +56,9 @@ function App() {
         payload: error.response.data.message
       });
     }
-    // }
   };
   useEffect(() => {
-    if (user) getAllPosts(); // eslint-disable-next-line 
+    if (user) getAllPosts(); // eslint-disable-next-line
   }, [user, user?.token]);
   const [showPreview, setShowPreview] = useState(false);
   const [type, setType] = useState("");
