@@ -8,50 +8,35 @@ import CreatePost from "../../components/createPost";
 import SendVerification from "../../components/home/sendVerification";
 import Post from "../../components/post";
 import { HashLoader } from "react-spinners";
-import { useEffect, useState } from "react";
-import Loader from "../../styles/loader/Loader";
 
 export default function Home({ loading, posts, error, setPostVisible, setRoomOpen, setShowPreview, setType, setFullscreen, setSlideNumber, setPostImages, setCoverType }) {
   const { user } = useSelector((state) => ({ ...state }));
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/`)
-      .then(res => {
-        setIsLoading(false);
-      })
-      .catch(err => {
-        window.location.reload();
-      })
-  }, []);
 
   return (
-    isLoading
-      ? <Loader />
-      : <div className="home">
-        {/* <div className="home" style={{ height: `${height}px` }}> */}
-        <Header page="home" />
-        {/* <LeftHome user={user} /> */}
-        <div className="home_middle">
-          {/* <Stories /> */}
-          {user.verified === false && <SendVerification user={user} />}
-          <CreatePost setType={setType} user={user} setPostVisible={setPostVisible} setRoomOpen={setRoomOpen} setShowPreview={setShowPreview} />
-          {loading
-            ? <div className="skeleton_loader">
-              <HashLoader
-                color="#F51997"
-              />
-            </div>
-            : <div className="posts">
-              {
-                posts?.map((post, i) => (
-                  <Post key={i} post={post} user={user} setSlideNumber={setSlideNumber} setFullscreen={setFullscreen} setPostImages={setPostImages} setCoverType={setCoverType} />
-                ))
-              }
-            </div>
-          }
-        </div>
-        {/* <RightHome user={user} /> */}
+    <div className="home">
+      {/* <div className="home" style={{ height: `${height}px` }}> */}
+      <Header page="home" />
+      {/* <LeftHome user={user} /> */}
+      <div className="home_middle">
+        {/* <Stories /> */}
+        {user.verified === false && <SendVerification user={user} />}
+        <CreatePost setType={setType} user={user} setPostVisible={setPostVisible} setRoomOpen={setRoomOpen} setShowPreview={setShowPreview} />
+        {loading
+          ? <div className="skeleton_loader">
+            <HashLoader
+              color="#F51997"
+            />
+          </div>
+          : <div className="posts">
+            {
+              posts?.map((post, i) => (
+                <Post key={i} post={post} user={user} setSlideNumber={setSlideNumber} setFullscreen={setFullscreen} setPostImages={setPostImages} setCoverType={setCoverType} />
+              ))
+            }
+          </div>
+        }
       </div>
+      {/* <RightHome user={user} /> */}
+    </div>
   );
 }

@@ -20,9 +20,21 @@ import Cookies from "./pages/data/Cookies";
 import RoomEnter from "./pages/room/RoomEnter";
 import Error from "./pages/error";
 import axios from "axios";
+import Loader from "./styles/loader/Loader";
 
 function App() {
   const { user, darkTheme } = useSelector((state) => ({ ...state }));
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(`${process.env.REACT_APP_BACKEND_URL}`)
+      .then(res => {
+        setIsLoading(false);
+      })
+      .catch(err => {
+        window.location.reload();
+      })
+  }, []);
 
   useEffect(() => {
     document.body.style.backgroundColor = `${darkTheme ? "#18191a" : "#f0f2f5"}`
@@ -36,31 +48,33 @@ function App() {
     error: ""
   });
 
-  const getAllPosts = async () => {
-    try {
-      dispatch({
-        type: "POSTS_REQUEST"
-      });
-      const { data } = await axios.get(`${process.env.REACT_APP_LOGIN_URL}/getAllPosts`, {
-        headers: {
-          Authorization: `Bearer ${user?.token}`
-        }
-      });
-      dispatch({
-        type: "POSTS_SUCCESS",
-        payload: data
-      });
-    }
-    catch (error) {
-      dispatch({
-        type: "POSTS_ERROR",
-        payload: error.response.data.message
-      });
-    }
-  };
   useEffect(() => {
-    if (user) getAllPosts(); // eslint-disable-next-line
-  }, [user, user?.token]);
+    if (!isLoading && user) {
+      const getAllPosts = async () => {
+        try {
+          dispatch({
+            type: "POSTS_REQUEST"
+          });
+          const { data } = await axios.get(`${process.env.REACT_APP_LOGIN_URL}/getAllPosts`, {
+            headers: {
+              Authorization: `Bearer ${user?.token}`
+            }
+          });
+          dispatch({
+            type: "POSTS_SUCCESS",
+            payload: data
+          });
+        }
+        catch (error) {
+          dispatch({
+            type: "POSTS_ERROR",
+            payload: error.response.data.message
+          });
+        }
+      };
+      getAllPosts();
+    }
+  }, [isLoading, user]);
   const [showPreview, setShowPreview] = useState(false);
   const [type, setType] = useState("");
 
@@ -78,42 +92,47 @@ function App() {
       {fullscreen &&
         <FullScreen setFullscreen={setFullscreen} postImages={postImages} slideNumber={slideNumber} setSlideNumber={setSlideNumber} coverType={coverType} setCoverType={setCoverType}
         />}
-      <Routes>
-        <Route element={<LoggedInRoutes />}>
-          <Route path="/" element={
-            <Home
-              setType={setType}
-              setShowPreview={setShowPreview}
-              loading={loading}
-              posts={posts}
-              error={error}
-              setPostVisible={setPostVisible}
-              setRoomOpen={setRoomOpen}
-              setFullscreen={setFullscreen}
-              setSlideNumber={setSlideNumber}
-              setPostImages={setPostImages}
-              setCoverType={setCoverType}
-            />
-          }
-            exact
-          />
-          <Route path="/profile" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
-          <Route path="/profile/:username" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
-          <Route path="/friends" element={<Friends setPostVisible={setPostVisible} />} exact />
-          <Route path="/friends/:type" element={<Friends setPostVisible={setPostVisible} />} exact />
-          <Route path="/activate/:token" element={<Activate />} exact />
-          <Route path="/room" element={<RoomEnter setRoomOpen={setRoomOpen} />} exact />
-          <Route path="/room/:roomID" element={<Room />} exact />
-        </Route>
-        <Route element={<NotLoggenInRoutes />}>
-          <Route path="/login" element={<Login />} exact />
-        </Route>
-        <Route path="/*" element={<Error />} />
-        <Route path="/reset" element={<Reset />} />
-        <Route path="/privacy" element={<Privacy />} exact />
-        <Route path="/terms" element={<Terms />} exact />
-        <Route path="/cookies" element={<Cookies />} exact />
-      </Routes>
+      {isLoading
+        ? <Loader />
+        : (
+          <Routes>
+            <Route element={<LoggedInRoutes />}>
+              <Route path="/" element={isLoading
+                ? <Loader />
+                : <Home
+                  setType={setType}
+                  setShowPreview={setShowPreview}
+                  loading={loading}
+                  posts={posts}
+                  error={error}
+                  setPostVisible={setPostVisible}
+                  setRoomOpen={setRoomOpen}
+                  setFullscreen={setFullscreen}
+                  setSlideNumber={setSlideNumber}
+                  setPostImages={setPostImages}
+                  setCoverType={setCoverType}
+                />
+              }
+                exact
+              />
+              <Route path="/profile" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
+              <Route path="/profile/:username" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
+              <Route path="/friends" element={<Friends setPostVisible={setPostVisible} />} exact />
+              <Route path="/friends/:type" element={<Friends setPostVisible={setPostVisible} />} exact />
+              <Route path="/activate/:token" element={<Activate />} exact />
+              <Route path="/room" element={<RoomEnter setRoomOpen={setRoomOpen} />} exact />
+              <Route path="/room/:roomID" element={<Room />} exact />
+            </Route>
+            <Route element={<NotLoggenInRoutes />}>
+              <Route path="/login" element={<Login />} exact />
+            </Route>
+            <Route path="/*" element={<Error />} />
+            <Route path="/reset" element={<Reset />} />
+            <Route path="/privacy" element={<Privacy />} exact />
+            <Route path="/terms" element={<Terms />} exact />
+            <Route path="/cookies" element={<Cookies />} exact />
+          </Routes>
+        )}
     </div>
   );
 }
