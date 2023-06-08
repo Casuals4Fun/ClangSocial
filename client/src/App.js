@@ -1,46 +1,61 @@
+import { useEffect, useReducer, useState, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Login from "./pages/login";
-import Profile from "./pages/profile";
+import { useSelector } from "react-redux";
+import axios from "axios";
 import LoggedInRoutes from "./routes/LoggedInRoutes";
 import NotLoggenInRoutes from "./routes/NotLoggenInRoutes";
-import Activate from "./pages/home/activate";
-import Reset from "./pages/reset";
-import CreatePostPopup from "./components/createPostPopup";
-import { useSelector } from "react-redux";
-import { useEffect, useReducer, useState } from "react";
+import {
+  Home,
+  Login,
+  Profile,
+  Activate,
+  Reset,
+  Friends,
+  Room,
+  Privacy,
+  Terms,
+  Cookies,
+  RoomEnter,
+  Error
+} from "./pages";
+import {
+  CreatePostPopup,
+  RoomInput,
+  FullScreen
+} from "./components";
 import { postsReducer } from "./functions/reducers";
-import Friends from "./pages/friends";
-import Room from "./pages/room";
-import RoomInput from "./components/createPost/RoomInput";
-import FullScreen from "./components/post/FullScreen";
-import Privacy from "./pages/data/Privacy";
-import Terms from "./pages/data/Terms";
-import Cookies from "./pages/data/Cookies";
-import RoomEnter from "./pages/room/RoomEnter";
-import Error from "./pages/error";
-import axios from "axios";
 import Loader from "./styles/loader/Loader";
 
 function App() {
   const { user, darkTheme } = useSelector((state) => ({ ...state }));
+  const [showPreview, setShowPreview] = useState(false);
+  const [type, setType] = useState("");
+  const [fullscreen, setFullscreen] = useState(false);
+  const [slideNumber, setSlideNumber] = useState(0);
+  const [postImages, setPostImages] = useState([]);
+  const [coverType, setCoverType] = useState(false);
+  const [postVisible, setPostVisible] = useState(false);
+  const [roomOpen, setRoomOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Added this useEffect so that Website starts displaying content after backend starts running!
+  async function loadServer() {
+    try {
+      await axios.get(`${process.env.REACT_APP_BACKEND_URL}`);
+      await axios.get(`${process.env.REACT_APP_LOGIN_URL}`);
+      setIsLoading(false);
+    } catch (err) {
+      window.location.reload();
+    }
+  }
+
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_LOGIN_URL}`)
-      .then(res => {
-        setIsLoading(false);
-      })
-      .catch(err => {
-        window.location.reload();
-      })
+    loadServer();
   }, []);
 
   useEffect(() => {
     document.body.style.backgroundColor = `${darkTheme ? "#18191a" : "#f0f2f5"}`
   }, [darkTheme]);
-  const [postVisible, setPostVisible] = useState(false);
-  const [roomOpen, setRoomOpen] = useState(false);
 
   const [{ loading, posts, error }, dispatch] = useReducer(postsReducer, {
     loading: false,
@@ -75,13 +90,6 @@ function App() {
       getAllPosts();
     }
   }, [isLoading, user]);
-  const [showPreview, setShowPreview] = useState(false);
-  const [type, setType] = useState("");
-
-  const [fullscreen, setFullscreen] = useState(false);
-  const [slideNumber, setSlideNumber] = useState(0);
-  const [postImages, setPostImages] = useState([]);
-  const [coverType, setCoverType] = useState(false);
 
   return (
     <div className={darkTheme ? "dark" : ""}>
@@ -95,43 +103,44 @@ function App() {
       {isLoading
         ? <Loader />
         : (
-          <Routes>
-            <Route element={<LoggedInRoutes />}>
-              <Route path="/" element={isLoading
-                ? <Loader />
-                : <Home
-                  setType={setType}
-                  setShowPreview={setShowPreview}
-                  loading={loading}
-                  posts={posts}
-                  error={error}
-                  setPostVisible={setPostVisible}
-                  setRoomOpen={setRoomOpen}
-                  setFullscreen={setFullscreen}
-                  setSlideNumber={setSlideNumber}
-                  setPostImages={setPostImages}
-                  setCoverType={setCoverType}
+          <Suspense fallback={<Loader />}>
+            <Routes>
+              <Route element={<LoggedInRoutes />}>
+                <Route path="/" element={
+                  <Home
+                    setType={setType}
+                    setShowPreview={setShowPreview}
+                    loading={loading}
+                    posts={posts}
+                    error={error}
+                    setPostVisible={setPostVisible}
+                    setRoomOpen={setRoomOpen}
+                    setFullscreen={setFullscreen}
+                    setSlideNumber={setSlideNumber}
+                    setPostImages={setPostImages}
+                    setCoverType={setCoverType}
+                  />
+                }
+                  exact
                 />
-              }
-                exact
-              />
-              <Route path="/profile" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
-              <Route path="/profile/:username" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
-              <Route path="/friends" element={<Friends setPostVisible={setPostVisible} />} exact />
-              <Route path="/friends/:type" element={<Friends setPostVisible={setPostVisible} />} exact />
-              <Route path="/activate/:token" element={<Activate />} exact />
-              <Route path="/room" element={<RoomEnter setRoomOpen={setRoomOpen} />} exact />
-              <Route path="/room/:roomID" element={<Room />} exact />
-            </Route>
-            <Route element={<NotLoggenInRoutes />}>
-              <Route path="/login" element={<Login />} exact />
-            </Route>
-            <Route path="/*" element={<Error />} />
-            <Route path="/reset" element={<Reset />} />
-            <Route path="/privacy" element={<Privacy />} exact />
-            <Route path="/terms" element={<Terms />} exact />
-            <Route path="/cookies" element={<Cookies />} exact />
-          </Routes>
+                <Route path="/profile" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
+                <Route path="/profile/:username" element={<Profile setFullscreen={setFullscreen} setSlideNumber={setSlideNumber} setPostImages={setPostImages} />} exact />
+                <Route path="/friends" element={<Friends setPostVisible={setPostVisible} />} exact />
+                <Route path="/friends/:type" element={<Friends setPostVisible={setPostVisible} />} exact />
+                <Route path="/activate/:token" element={<Activate />} exact />
+                <Route path="/room" element={<RoomEnter setRoomOpen={setRoomOpen} />} exact />
+                <Route path="/room/:roomID" element={<Room />} exact />
+              </Route>
+              <Route element={<NotLoggenInRoutes />}>
+                <Route path="/login" element={<Login />} exact />
+              </Route>
+              <Route path="/*" element={<Error />} />
+              <Route path="/reset" element={<Reset />} />
+              <Route path="/privacy" element={<Privacy />} exact />
+              <Route path="/terms" element={<Terms />} exact />
+              <Route path="/cookies" element={<Cookies />} exact />
+            </Routes>
+          </Suspense>
         )}
     </div>
   );
