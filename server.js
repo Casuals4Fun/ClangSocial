@@ -39,19 +39,6 @@ app.get('/api/status', async (req, res) => {
     }
 });
 
-// FRONTEND ROUTES PATH
-app.use(express.static(path.resolve(__dirname, 'client', 'build')))
-app.get('*', (req, res) => {
-    res.sendFile(
-        path.resolve(__dirname, 'client', 'build', 'index.html'),
-        function (err) {
-            if (err) {
-                res.status(500).send(err)
-            }
-        }
-    )
-});
-
 // Connect DATABASE
 const connectDatabase = async () => {
     try {

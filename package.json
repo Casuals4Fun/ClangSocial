@@ -4,9 +4,7 @@
   "description": "Clang Social's production source-code",
   "main": "server.js",
   "scripts": {
-    "client": "cd client && npm run start",
-    "build": "cd client && npm i && npm run build",
-    "dev": "npm run build && nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
