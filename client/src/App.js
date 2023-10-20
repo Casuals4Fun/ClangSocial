@@ -36,22 +36,7 @@ function App() {
   const [coverType, setCoverType] = useState(false);
   const [postVisible, setPostVisible] = useState(false);
   const [roomOpen, setRoomOpen] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Added this useEffect so that Website starts displaying content after backend starts running!
-  async function loadServer() {
-    try {
-      await axios.get(`${process.env.REACT_APP_BACKEND_URL}`);
-      await axios.get(`${process.env.REACT_APP_LOGIN_URL}`);
-      setIsLoading(false);
-    } catch (err) {
-      window.location.reload();
-    }
-  }
-
-  useEffect(() => {
-    loadServer();
-  }, []);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     document.body.style.backgroundColor = `${darkTheme ? "#18191a" : "#f0f2f5"}`
