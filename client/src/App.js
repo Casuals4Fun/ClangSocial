@@ -36,7 +36,7 @@ function App() {
   const [coverType, setCoverType] = useState(false);
   const [postVisible, setPostVisible] = useState(false);
   const [roomOpen, setRoomOpen] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  const isLoading = false;
 
   useEffect(() => {
     document.body.style.backgroundColor = `${darkTheme ? "#18191a" : "#f0f2f5"}`
