@@ -95,7 +95,7 @@ exports.register = async (req, res) => {
     );
 
     const url = `${process.env.BASE_URL}/activate/${emailVerificationToken}`;
-    sendVerificationEmail(user.email, user.first_name, url);
+    await sendVerificationEmail(user.email, user.first_name, url);
     const token = generateToken({ id: user._id.toString() }, "7d");
 
     res.send({
@@ -147,10 +147,12 @@ exports.sendVerification = async (req, res) => {
       "30m"
     );
     const url = `${process.env.BASE_URL}/activate/${emailVerificationToken}`;
-    sendVerificationEmail(user.email, user.first_name, url);
-    return res.status(200).json({
-      message: "Account Verification link has been sent to your email.."
-    });
+    await sendVerificationEmail(user.email, user.first_name, url)
+      .then(() => {
+        return res.status(200).json({
+          message: "Account Verification link has been sent to your email.."
+        });
+      });
   }
   catch (error) {
     res.status(500).json({ message: error.message });
@@ -187,10 +189,12 @@ exports.sendResetPasswordCode = async (req, res) => {
       code,
       user: user._id,
     }).save();
-    sendResetCode(user.email, user.first_name, code);
-    return res.status(200).json({
-      message: "Email reset code has been sent to your email",
-    });
+    await sendResetCode(user.email, user.first_name, code)
+      .then(() => {
+        return res.status(200).json({
+          message: "Email reset code has been sent to your email",
+        });
+      });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -352,7 +356,7 @@ exports.cancelRequest = async (req, res) => {
     if (req.user.id !== req.params.id) {
       const sender = await User.findById(req.user.id);
       const receiver = await User.findById(req.params.id);
-      if ( receiver.requests.includes(sender._id) && !receiver.friends.includes(sender._id)) {
+      if (receiver.requests.includes(sender._id) && !receiver.friends.includes(sender._id)) {
         await receiver.updateOne({
           $pull: { requests: sender._id },
         });
@@ -444,7 +448,7 @@ exports.acceptRequest = async (req, res) => {
         await User.bulkWrite([
           {
             updateOne: {
-            // updateMany: {
+              // updateMany: {
               filter: { _id: receiver },
               update: { $push: { friends: sender._id } },
               // update: { $push: { friends: sender._id, following: sender._id } },
@@ -452,9 +456,9 @@ exports.acceptRequest = async (req, res) => {
           },
           {
             updateOne: {
-            // updateMany: {
+              // updateMany: {
               filter: { _id: sender },
-              update: { $push: { friends: receiver._id  } },
+              update: { $push: { friends: receiver._id } },
               // update: { $push: { friends: receiver._id, followers: receiver._id } },
             },
           },

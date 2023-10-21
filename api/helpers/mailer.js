@@ -3,47 +3,57 @@ const accountVerificationHtml = require("./accountVerificationHtml");
 const resetPasswordHtml = require("./resetPasswordHtml");
 
 exports.sendVerificationEmail = async (email, name, url) => {
-    const transporter = nodemailer.createTransport({
-        host: process.env.SMTP_HOST,
-        port: process.env.SMTP_PORT,
-        service: process.env.SMTP_SERVICE,
-        secure: true,
-        auth: {
-            user: process.env.SMTP_MAIL,
-            pass: process.env.SMTP_PASSWORD
+    try {
+        const transporter = nodemailer.createTransport({
+            host: process.env.SMTP_HOST,
+            port: process.env.SMTP_PORT,
+            service: process.env.SMTP_SERVICE,
+            secure: true,
+            auth: {
+                user: process.env.SMTP_MAIL,
+                pass: process.env.SMTP_PASSWORD
+            }
+        });
+
+        const mailOptions = {
+            from: process.env.SMTP_MAIL,
+            to: email,
+            subject: "Clang Social | Account Verification",
+            html: accountVerificationHtml(name, url)
         }
-    });
 
-    const mailOptions = {
-        from: process.env.SMTP_MAIL,
-        to: email,
-        subject: "Clang Social | Account Verification",
-        html: accountVerificationHtml(name, url)
+        await transporter.sendMail(mailOptions);
     }
-
-    await transporter.sendMail(mailOptions);
+    catch (error) {
+        console.log(error)
+    }
 };
 
 exports.sendResetCode = async (email, name, code) => {
-    const transporter = nodemailer.createTransport({
-        host: process.env.SMTP_HOST,
-        port: process.env.SMTP_PORT,
-        service: process.env.SMTP_SERVICE,
-        secure: true,
-        auth: {
-            user: process.env.SMTP_MAIL,
-            pass: process.env.SMTP_PASSWORD
+    try {
+        const transporter = nodemailer.createTransport({
+            host: process.env.SMTP_HOST,
+            port: process.env.SMTP_PORT,
+            service: process.env.SMTP_SERVICE,
+            secure: true,
+            auth: {
+                user: process.env.SMTP_MAIL,
+                pass: process.env.SMTP_PASSWORD
+            }
+        });
+
+        const mailOptions = {
+            from: process.env.SMTP_MAIL,
+            to: email,
+            subject: "Clang Social | Reset User Password",
+            html: resetPasswordHtml(name, code)
         }
-    });
 
-    const mailOptions = {
-        from: process.env.SMTP_MAIL,
-        to: email,
-        subject: "Clang Social | Reset User Password",
-        html: resetPasswordHtml(name, code)
+        await transporter.sendMail(mailOptions);
     }
-
-    await transporter.sendMail(mailOptions);
+    catch (error) {
+        console.log(error)
+    }
 };
 
 // const { google } = require("googleapis");
