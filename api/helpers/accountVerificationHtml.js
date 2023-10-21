@@ -459,6 +459,7 @@ function accountVerificationHtml(name, url) {
         }
     </style>
 </head>
+
 <body
     style="width:100%;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
     <div class="es-wrapper-color" style="background-color:#F9F9F9">
@@ -569,984 +570,975 @@ function accountVerificationHtml(name, url) {
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
                                                                         Click on the below Verify Account button to
                                                                         get started.<br /></p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" class="es-m-txt-c"
-                                                                style="padding:0;Margin:0;padding-top:15px"><span
-                                                                    class="msohide es-button-border"
-                                                                    style="border-style:solid;border-color:#060606;background:#000F26;border-width:0px;display:inline-block;border-radius:3px;width:auto;mso-hide:all"><a
-                                                                        href=${url} class="es-button"
-                                                                        target="_blank"
-                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:13px;border-style:solid;border-color:#000F26;border-width:13px 30px 13px 30px;display:inline-block;background:#000F26;border-radius:3px;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-weight:bold;font-style:normal;line-height:16px;width:auto;text-align:center">Verify
-                                                                        Account ➙</a></span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" class="es-m-txt-c"
-                                                                style="padding:0;Margin:0;padding-top:15px"><span
-                                                                    class="msohide es-button-border"
-                                                                    style="border-style:solid;border-color:#060606;background:#000F26;border-width:0px;display:inline-block;border-radius:3px;width:auto;mso-hide:all"><a
-                                                                        href="https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social"
-                                                                        class="es-button" target="_blank"
-                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:13px;border-style:solid;border-color:#000F26;border-width:13px 30px 13px 30px;display:inline-block;background:#000F26;border-radius:3px;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-weight:bold;font-style:normal;line-height:16px;width:auto;text-align:center">
-                                                                        Download app ➙
-                                                                    </a></span></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="Margin:0;padding-bottom:15px;padding-left:20px;padding-right:20px;padding-top:30px">
-                                        <table cellpadding="0" cellspacing="0" width="100%"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td align="center" valign="top"
-                                                    style="padding:0;Margin:0;width:560px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" class="es-m-txt-c"
-                                                                style="padding:0;Margin:0">
-                                                                <h2
-                                                                    style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
-                                                                    Popular Users</h2>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="padding:0;Margin:0;padding-bottom:10px;padding-top:15px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p0r es-m-p20b" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people1_joj3ap.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Angelina</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>100k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td class="es-hidden" style="padding:0;Margin:0;width:15px"></td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p0r es-m-p20b" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people2_ld9v7t.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Diana</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>10k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td class="es-m-p0r" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people3_kvicha.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Shubham</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>500k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:20px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p0r es-m-p20b" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/people4_g3gsw1.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Pratik</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>30k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td class="es-hidden" style="padding:0;Margin:0;width:15px"></td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p0r es-m-p20b" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/people5_sbapc4.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Marina</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>450k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td class="es-m-p0r" align="center"
-                                                    style="padding:0;Margin:0;width:190px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
-                                                        bgcolor="#ffffff" role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/people6_yaapdb.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="77" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <strong>Aniket</strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>800k&nbsp;Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="padding:0;Margin:0;padding-top:20px;padding-bottom:40px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p20b" align="left"
-                                                    style="padding:0;Margin:0;width:335px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:5px">
-                                                                <h2
-                                                                    style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
-                                                                    About Us</h2>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:10px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    On Clang Social, you have Freedom of Speech and
-                                                                    can post Anything at Anytime and from Anywhere.
-                                                                    Our mantra is the above three AAAs. So what are
-                                                                    you waiting for. Dive into immense world of
-                                                                    benefitting from the thoughts of other people
-                                                                    and share your thoughts for the brightest future
-                                                                    ahead of us.</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center" height="18"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:245px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" height="25"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" bgcolor="#ffffff"
-                                        style="padding:0;Margin:0;padding-top:20px;padding-left:30px;padding-right:30px;background-color:#ffffff;border-radius:15px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p20b" align="left"
-                                                    style="padding:0;Margin:0;width:312px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" height="38"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" style="padding:0;Margin:0">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:18px;color:#ffffff;font-size:12px">
-                                                                    <strong><span
-                                                                        style="background-color:#073590;padding:3px">New</span></strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:5px">
-                                                                <h2
-                                                                    style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
-                                                                    New features</h2>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:10px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    Will be added soon.</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:10px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <a target="_blank"
-                                                                        href="https://cs-demo.netlify.app"
-                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px">Learn
-                                                                        more ➙</a>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:208px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;font-size:0px"><img
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/gifan2_l08wrl.gif"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="185" /></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="padding:0;Margin:0">
-                                        <table cellpadding="0" cellspacing="0" width="100%"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td align="center" valign="top"
-                                                    style="padding:0;Margin:0;width:600px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" height="40"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" bgcolor="#ffffff"
-                                        style="padding:0;Margin:0;padding-top:20px;padding-left:30px;padding-right:30px;background-color:#ffffff;border-radius:15px">
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:312px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" height="38"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" style="padding:0;Margin:0">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:18px;color:#ffffff;font-size:12px">
-                                                                    <strong><span
-                                                                        style="background-color:#FFA23B;padding:3px">Update</span></strong>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:5px">
-                                                                <h2
-                                                                    style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
-                                                                    New stories</h2>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:10px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    Updating Soon</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-top:10px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <a target="_blank"
-                                                                        href="https://cs-demo.netlify.app"
-                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px">Learn
-                                                                        more ➙</a>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:208px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" class="es-m-p20t"
-                                                                style="padding:0;Margin:0;font-size:0px"><img
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/gifan31_jg8wwi.gif"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="185" /></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:40px">
-                                        <table cellpadding="0" cellspacing="0" width="100%"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td align="center" valign="top"
-                                                    style="padding:0;Margin:0;width:560px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" class="es-m-txt-c"
-                                                                style="padding:0;Margin:0">
-                                                                <h2
-                                                                    style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
-                                                                    Popular Posts</h2>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="padding:0;Margin:0;padding-bottom:10px;padding-top:15px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p20b" align="left"
-                                                    style="padding:0;Margin:0;width:290px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        bgcolor="#ffffff"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
-                                                        role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img class="adapt-img"
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q1_lxc5e2.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
-                                                                    width="250" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em><strong>@Pratik</strong></em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>10k Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <table border="0" class="es-table cke_show_border"
-                                                                    cellspacing="1" cellpadding="1"
-                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
-                                                                    role="presentation">
-                                                                    <tr>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;width:35px;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:290px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        bgcolor="#ffffff"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
-                                                        role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img class="adapt-img"
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q2_yntmnn.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
-                                                                    width="250" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em><strong>@Marina</strong></em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>100k Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <table border="0" class="es-table cke_show_border"
-                                                                    cellspacing="1" cellpadding="1"
-                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
-                                                                    role="presentation">
-                                                                    <tr>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;width:35px;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:30px">
-                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                            <tr>
-                                                <td class="es-m-p20b" align="left"
-                                                    style="padding:0;Margin:0;width:290px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        bgcolor="#ffffff"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
-                                                        role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img class="adapt-img"
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q3_w3ei8y.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
-                                                                    width="250" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em><strong>@Shubham</strong></em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>500k Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <table border="0" class="es-table cke_show_border"
-                                                                    cellspacing="1" cellpadding="1"
-                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
-                                                                    role="presentation">
-                                                                    <tr>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;width:35px;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                            <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:290px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        bgcolor="#ffffff"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
-                                                        role="presentation">
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
-                                                                <img class="adapt-img"
-                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q41_rstt0u.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
-                                                                    width="250" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em><strong>@Angelina</strong></em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    <em>450k Followers</em>
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left"
-                                                                style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
-                                                                <table border="0" class="es-table cke_show_border"
-                                                                    cellspacing="1" cellpadding="1"
-                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
-                                                                    role="presentation">
-                                                                    <tr>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;width:35px;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                        <td align="left"
-                                                                            style="padding:0;Margin:0;font-size:0px">
-                                                                            <a target="_blank"
-                                                                                href="https://cs-demo.netlify.app/"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
-                                                                                    alt
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                    width="22" /></a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-                <table class="es-footer" cellspacing="0" cellpadding="0" align="center"
-                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
-                    <tr>
-                        <td align="center" style="padding:0;Margin:0">
-                            <table class="es-footer-body" cellspacing="0" cellpadding="0" align="center"
-                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
-                                <tr>
-                                    <td align="left" style="padding:0;Margin:0">
-                                        <table cellpadding="0" cellspacing="0" width="100%"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td align="center" valign="top"
-                                                    style="padding:0;Margin:0;width:600px">
-                                                    <table cellpadding="0" cellspacing="0" width="100%"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" height="40"
-                                                                style="padding:0;Margin:0"></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;border-radius:15px;background-color:#ffffff"
-                                        bgcolor="#ffffff">
-                                        <table cellspacing="0" cellpadding="0" width="100%"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td class="es-m-p0r" valign="top" align="center"
-                                                    style="padding:0;Margin:0;width:560px">
-                                                    <table width="100%" cellspacing="0" cellpadding="0"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td align="center" class="es-m-txt-c"
-                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:20px;font-size:0px">
-                                                                <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/ClangSocial_Reset_t3xgbk_yjwb2k.png"
-                                                                    alt
-                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                    width="119" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;font-size:0">
-                                                                <table cellpadding="0" cellspacing="0"
-                                                                    class="es-table-not-adapt es-social"
-                                                                    role="presentation"
-                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                    <tr>
-                                                                        <td align="center" valign="top"
-                                                                            style="padding:0;Margin:0"><a
-                                                                                target="_blank"
-                                                                                href="https://cs-demo.netlify.app"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#FFFFFF;font-size:14px"><img
-                                                                                    src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/icon_fhqf30.png"
-                                                                                    alt="CS" title="Clang Social"
-                                                                                    width="32"
-                                                                                    style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" /></a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center"
-                                                                style="padding:0;Margin:0;padding-top:20px">
-                                                                <p
-                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
-                                                                    Post Anything | Anytime | Anywhere</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left"
-                                        style="Margin:0;padding-left:20px;padding-right:20px;padding-top:30px;padding-bottom:30px">
-                                        <table width="100%" cellspacing="0" cellpadding="0"
-                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                            <tr>
-                                                <td valign="top" align="center"
-                                                    style="padding:0;Margin:0;width:560px">
-                                                    <table width="100%" cellspacing="0" cellpadding="0"
-                                                        role="presentation"
-                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                        <tr>
-                                                            <td class="es-infoblock made_with" align="center"
-                                                                style="padding:0;Margin:0;line-height:0px;font-size:0px;color:#CCCCCC">
-                                                                <a target="_blank" href="mailto:clang.web@gmail.com"
-                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px"><img
-                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/Transparent_Merry_Christmas_New_Year_z6zamw.png"
-                                                                        alt width="125"
-                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" /></a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
-</body >
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" class="es-m-txt-c"
+                                                                    style="padding:0;Margin:0;padding-top:15px"><span
+                                                                        class="msohide es-button-border"
+                                                                        style="border-style:solid;border-color:#060606;background:#000F26;border-width:0px;display:inline-block;border-radius:3px;width:auto;mso-hide:all"><a
+                                                                            href=${url} class="es-button"
+                                                                            target="_blank"
+                                                                            style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:13px;border-style:solid;border-color:#f51997;border-width:13px 30px 13px 30px;display:inline-block;background:#f51997;border-radius:3px;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-weight:bold;font-style:normal;line-height:16px;width:auto;text-align:center">Verify
+                                                                            Account ➙</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" class="es-m-txt-c"
+                                                                    style="padding:0;Margin:0;padding-top:15px"><span
+                                                                        class="msohide es-button-border"
+                                                                        style="border-style:solid;border-color:#060606;background:#000F26;border-width:0px;display:inline-block;border-radius:3px;width:auto;mso-hide:all"><a
+                                                                            href="https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social"
+                                                                            class="es-button" target="_blank"
+                                                                            style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:13px;border-style:solid;border-color:#000F26;border-width:13px 30px 13px 30px;display:inline-block;background:#000F26;border-radius:3px;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-weight:bold;font-style:normal;line-height:16px;width:auto;text-align:center">
+                                                                            Download app ➙
+                                                                        </a></span></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-bottom:15px;padding-left:20px;padding-right:20px;padding-top:30px">
+                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" class="es-m-txt-c"
+                                                                    style="padding:0;Margin:0">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
+                                                                        Popular Users</h2>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-bottom:10px;padding-top:15px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p0r es-m-p20b" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people1_joj3ap.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Angelina</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>100k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td class="es-hidden" style="padding:0;Margin:0;width:15px"></td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p0r es-m-p20b" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people2_ld9v7t.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Diana</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>10k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td class="es-m-p0r" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704748/Email/people3_kvicha.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Shubham</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>500k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:20px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p0r es-m-p20b" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/people4_g3gsw1.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Pratik</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>30k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td class="es-hidden" style="padding:0;Margin:0;width:15px"></td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p0r es-m-p20b" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/people5_sbapc4.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Marina</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>450k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td class="es-m-p0r" align="center"
+                                                        style="padding:0;Margin:0;width:190px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:15px;background-color:#ffffff"
+                                                            bgcolor="#ffffff" role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/people6_yaapdb.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="77" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <strong>Aniket</strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>800k&nbsp;Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-top:20px;padding-bottom:40px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p20b" align="left"
+                                                        style="padding:0;Margin:0;width:335px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:5px">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
+                                                                        About Us</h2>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        On Clang Social, you have Freedom of Speech and
+                                                                        can post Anything at Anytime and from Anywhere.
+                                                                        Our mantra is the above three AAAs. So what are
+                                                                        you waiting for. Dive into immense world of
+                                                                        benefitting from the thoughts of other people
+                                                                        and share your thoughts for the brightest future
+                                                                        ahead of us.</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" height="18"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:245px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" height="25"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" bgcolor="#ffffff"
+                                            style="padding:0;Margin:0;padding-top:20px;padding-left:30px;padding-right:30px;background-color:#ffffff;border-radius:15px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p20b" align="left"
+                                                        style="padding:0;Margin:0;width:312px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" height="38"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:18px;color:#ffffff;font-size:12px">
+                                                                        <strong><span
+                                                                                style="background-color:#073590;padding:3px">New</span></strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:5px">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
+                                                                        New features</h2>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        Will be added soon.</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <a target="_blank"
+                                                                            href="https://clangsocial.netlify.app"
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px">Learn
+                                                                            more ➙</a>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:208px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;font-size:0px"><img
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/gifan2_l08wrl.gif"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="185" /></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="padding:0;Margin:0">
+                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:600px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" height="40"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" bgcolor="#ffffff"
+                                            style="padding:0;Margin:0;padding-top:20px;padding-left:30px;padding-right:30px;background-color:#ffffff;border-radius:15px">
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:312px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" height="38"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" style="padding:0;Margin:0">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:18px;color:#ffffff;font-size:12px">
+                                                                        <strong><span
+                                                                                style="background-color:#FFA23B;padding:3px">Update</span></strong>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:5px">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
+                                                                        New stories</h2>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        Updating Soon</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-top:10px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <a target="_blank"
+                                                                            href="https://clangsocial.netlify.app"
+                                                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px">Learn
+                                                                            more ➙</a>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:208px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" class="es-m-p20t"
+                                                                    style="padding:0;Margin:0;font-size:0px"><img
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704749/Email/gifan31_jg8wwi.gif"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                        width="185" /></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:40px">
+                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" class="es-m-txt-c"
+                                                                    style="padding:0;Margin:0">
+                                                                    <h2
+                                                                        style="Margin:0;line-height:34px;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;font-size:28px;font-style:normal;font-weight:normal;color:#000F26">
+                                                                        Popular Posts</h2>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-bottom:10px;padding-top:15px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p20b" align="left"
+                                                        style="padding:0;Margin:0;width:290px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            bgcolor="#ffffff"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
+                                                            role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img class="adapt-img"
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q1_lxc5e2.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
+                                                                        width="250" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em><strong>@Pratik</strong></em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>10k Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <table border="0" class="es-table cke_show_border"
+                                                                        cellspacing="1" cellpadding="1"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
+                                                                        role="presentation">
+                                                                        <tr>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;width:35px;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:290px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            bgcolor="#ffffff"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
+                                                            role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img class="adapt-img"
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q2_yntmnn.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
+                                                                        width="250" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em><strong>@Marina</strong></em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>100k Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <table border="0" class="es-table cke_show_border"
+                                                                        cellspacing="1" cellpadding="1"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
+                                                                        role="presentation">
+                                                                        <tr>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;width:35px;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="padding:0;Margin:0;padding-top:10px;padding-bottom:30px">
+                                            <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                <tr>
+                                                    <td class="es-m-p20b" align="left"
+                                                        style="padding:0;Margin:0;width:290px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            bgcolor="#ffffff"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
+                                                            role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img class="adapt-img"
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q3_w3ei8y.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
+                                                                        width="250" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em><strong>@Shubham</strong></em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>500k Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <table border="0" class="es-table cke_show_border"
+                                                                        cellspacing="1" cellpadding="1"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
+                                                                        role="presentation">
+                                                                        <tr>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;width:35px;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                <tr>
+                                                    <td align="left" style="padding:0;Margin:0;width:290px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            bgcolor="#ffffff"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-color:#ffffff;border-radius:15px"
+                                                            role="presentation">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="Margin:0;padding-bottom:15px;padding-top:20px;padding-left:20px;padding-right:20px;font-size:0px">
+                                                                    <img class="adapt-img"
+                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704750/Email/q41_rstt0u.png"
+                                                                        alt
+                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:15px;border-collapse:separate"
+                                                                        width="250" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em><strong>@Angelina</strong></em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        <em>450k Followers</em>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left"
+                                                                    style="padding:0;Margin:0;padding-bottom:10px;padding-left:20px;padding-right:20px">
+                                                                    <table border="0" class="es-table cke_show_border"
+                                                                        cellspacing="1" cellpadding="1"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:100%"
+                                                                        role="presentation">
+                                                                        <tr>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;width:35px;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/hart1_gace1o.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                            <td align="left"
+                                                                                style="padding:0;Margin:0;font-size:0px">
+                                                                                <a target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#000F26;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704751/Email/us_eiuaz2.png"
+                                                                                        alt
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="22" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="es-footer" cellspacing="0" cellpadding="0" align="center"
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
+                        <tr>
+                            <td align="center" style="padding:0;Margin:0">
+                                <table class="es-footer-body" cellspacing="0" cellpadding="0" align="center"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
+                                    <tr>
+                                        <td align="left" style="padding:0;Margin:0">
+                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td align="center" valign="top"
+                                                        style="padding:0;Margin:0;width:600px">
+                                                        <table cellpadding="0" cellspacing="0" width="100%"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center" height="40"
+                                                                    style="padding:0;Margin:0"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;border-radius:15px;background-color:#ffffff"
+                                            bgcolor="#ffffff">
+                                            <table cellspacing="0" cellpadding="0" width="100%"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td class="es-m-p0r" valign="top" align="center"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table width="100%" cellspacing="0" cellpadding="0"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;font-size:0">
+                                                                    <table cellpadding="0" cellspacing="0"
+                                                                        class="es-table-not-adapt es-social"
+                                                                        role="presentation"
+                                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                        <tr>
+                                                                            <td align="center" valign="top"
+                                                                                style="padding:0;Margin:0"><a
+                                                                                    target="_blank"
+                                                                                    href="https://clangsocial.netlify.app"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#FFFFFF;font-size:14px"><img
+                                                                                        src="https://res.cloudinary.com/diqbu4moc/image/upload/v1671704747/Email/icon_fhqf30.png"
+                                                                                        alt="CS" title="Clang Social"
+                                                                                        width="32"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center"
+                                                                    style="padding:0;Margin:0;padding-top:20px">
+                                                                    <p
+                                                                        style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, 'Google Sans', 'Segoe UI', Roboto, Arial, Ubuntu, sans-serif;line-height:21px;color:#000F26;font-size:14px">
+                                                                        Post Anything | Anytime | Anywhere</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="Margin:0;padding-left:20px;padding-right:20px;padding-top:30px;padding-bottom:30px">
+                                            <table width="100%" cellspacing="0" cellpadding="0"
+                                                style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                <tr>
+                                                    <td valign="top" align="center"
+                                                        style="padding:0;Margin:0;width:560px">
+                                                        <table width="100%" cellspacing="0" cellpadding="0"
+                                                            role="presentation"
+                                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                            <tr>
+                                                                <td class="es-infoblock made_with" align="center"
+                                                                    style="padding:0;Margin:0;line-height:0px;font-size:0px;color:#CCCCCC">
+                                                                    <a target="_blank" href="mailto:clang.web@gmail.com"
+                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#f51997;font-size:15px"
+                                                                        >
+                                                                        Contact us
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
     `;
 
     return html;
