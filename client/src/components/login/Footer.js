@@ -13,13 +13,12 @@ export default function Footer({ setVisible }) {
             </div>
             <div className="footer_splitter"></div>
             <div className="login_footer_wrap companyWrap">
-                {/* <Link to="/" style={{ fontSize: "12px", marginTop: "10px" }}> */}
-                <div style={{ fontSize: "12px" }}>
+                <Link to="https://shubhamlal.in" style={{ fontSize: "12px" }}>
+                    Made with 🖤 by Shubham
+                </Link>
+                {/* <div style={{ fontSize: "12px" }}>
                     Made with 🖤 by Casuals4Fun
-                </div>
-                <div style={{ fontSize: "12px", textDecoration: "underline"}}>
-                    WeKnewHow
-                </div>
+                </div> */}
             </div>
         </footer>
     )
